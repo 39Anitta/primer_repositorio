@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ol {
+    list-style-type: square;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    max-width: 50px;
+    height: auto;
+}
+
+.tamaniob {
+    display: inline;
+    border: 1px solid saddlebrown;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.navBackground {
+    background-color: lemonchiffon;
+    position: sticky;
+    top: 0px;
+}
+
+.imagenprincipal {
+    margin: 20px;
+}
+
+.italica {
+    font-style: italic;
+}
+
+h2 {
+    color: crimson;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.productos{
+    background-color: lemonchiffon;
+    
+}
+
+.productos2{
+    text-align:center;
+    border: 2px solid grey;
+    border-radius:10px;
+    font-size: 22px;
+    padding: 10px;
+    background-color:beige;
+}
+
+#precio {
+    text-decoration: underline overline;
+    font-weight: bold;
+    font-size: 30px
+}
+
+
+
+h3 {
+    background-color: lemonchiffon;
+    padding: 10px;
+}
+
+.tituloRosado {
+    color: darksalmon;
+}
+
+.subrayado {
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.imagenproducto {
+    margin: 50px;
+    height: 348px;
+    width: 342px;
+}
+
+h4 {
+    background-color: lemonchiffon;
+    padding: 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.imagenicono {
+    height: 50px;
+    width: 50px;
+}
+
+.a1 {
+    background-color: lemonchiffon;
+}
+
+.a2 {
+    background-color: lemonchiffon;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4,auto);
+    grid-template-areas: "header header"
+        "navIzq navDer"
+        "productos productos"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
+
+div.navIzq {
+    grid-area: navIzq;
+}
+
+div.navDer {
+    grid-area: navDer;
+}
+
+section.productos {
+    grid-area: productos;
+}
+
+section.newsletter1 {
+    grid-area: newsletter1;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+
+.faq{
+    background-color: lemonchiffon;
+
+}
+
+.imagenenvio{
+    height: 150px;
+    width: 200px;
+}
