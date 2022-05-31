@@ -64,16 +64,29 @@ h2 {
     background-color:beige;
 }
 
+.productos2{
+        height: 500px;
+        transition: height 2s
+}
+
+.productos2:hover{
+    height: 800px;
+    background-color:burlywood
+}
+
+
 #precio {
+
     text-decoration: underline overline;
     font-weight: bold;
     font-size: 30px
+    
 }
 
 
 
 h3 {
-    background-color: lemonchiffon;
+    background-image: linear-gradient(to right, red, yellow, white);
     padding: 10px;
 }
 
